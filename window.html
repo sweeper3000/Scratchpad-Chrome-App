@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+ <title>Scratchpad</title>
+ <meta name="charset" content="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="theme-color" content="#2196f3">
+ <link rel="stylesheet" href="materialize.css">
+ <script type="text/javascript" src="jquery.js"></script>
+ <script src="materialize.js"></script>
+ <link href="material-icons.css" rel="stylesheet">
+</head>
+<body>
+ <nav class="nav-wrapper blue">
+  <span class="brand-logo">Scratchpad</span>
+ </nav>
+ <div class="row">
+  <div class="col s12 m12 l12">
+   <div class="card-panel">
+    <div class="card-content">
+	 <div class="input-field col s12 m12 l12">
+	  <textarea id="material-textarea" class="materialize-textarea"></textarea>
+	  <label for="material-textarea">Write your temporary note here...</label>
+	 </div>
+	 <p>Refresh scratchpad: </p><button class="waves-effect waves-effect-light btn-floating red" onclick="window.location.reload()"><i class="material-icons">refresh</i></button>
+	</div>
+   </div>
+  </div>
+ </div>
+</body>
+</html>
